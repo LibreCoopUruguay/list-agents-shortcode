@@ -78,6 +78,10 @@ class ListAgentsShortcode {
             $params['type'] = 'EQ(' . $atts['type'] . ')';
         }
         
+        if (isset($atts['seals'])) {
+            $params['@seals'] = $atts['seals'];
+        }
+        
                 
         $result = $this->getAgents($params);
         

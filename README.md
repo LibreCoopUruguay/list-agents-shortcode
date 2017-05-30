@@ -33,6 +33,13 @@ Uma lista de IDs separadas por vírugla, sem espaços
 [list_agents ids="101,239,344,355"]
 ```
 
+### Por Selos
+
+Uma lista de IDs dos selos separadas por vírugla, sem espaços
+
+```
+[list_agents seals="2,3,4"]
+
 ### Por tipo de espaço
 
 O ID do tipo
