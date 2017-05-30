@@ -11,7 +11,7 @@ Text Domain:
 class ListAgentsShortcode {
 
 
-    function ListAgentsShortcode() {
+    function __construct() {
     
         add_shortcode('list_agents', array(&$this, 'shortcode'));
         add_action( 'wp_enqueue_scripts', array(&$this, 'addCSS') );
@@ -58,7 +58,7 @@ class ListAgentsShortcode {
 		#$tag = $atts['tag'];
         
         $params = [
-            '@select' => 'id,name,files,En_Estado',
+            '@select' => 'id,name,files,En_Estado,shortDescription,singleUrl',
             '@files' => '(avatar.avatarSmall,downloads):url'
         ];
         

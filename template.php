@@ -11,6 +11,10 @@
                 <a class="agent-title" href='<?php echo $agent->singleUrl; ?>'>
                     <?php echo $agent->name; ?>
                 </a>
+                
+                <p>
+                    <?php echo $agent->shortDescription; ?>
+                </p>
             
               
             </p>
