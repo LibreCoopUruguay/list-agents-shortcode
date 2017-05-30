@@ -1,0 +1,30 @@
+.list_agents_item {
+    margin-bottom: 30px;
+    
+}
+
+.list_agents_item small {
+    display: block;
+}
+
+.list_agents_item img {
+    float: left;
+    margin-right: 10px;
+}
+
+.agent-title {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-decoration: none;
+    border: none !important;
+}
+
+.list_agents_item .agent-description {
+    margin-bottom: 0.5em;
+}
+
+.list_agents_item .meta {
+    font-size: 0.65em;
+    border-bottom: 1px solid #CCC;
+}
