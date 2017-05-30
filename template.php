@@ -14,6 +14,9 @@
                 
                 <p>
                     <?php echo $agent->shortDescription; ?>
+                    <a class="vermas" href='<?php echo $agent->singleUrl; ?>'>
+                        Ver más
+                    </a>
                 </p>
             
               
