@@ -1,8 +1,9 @@
+<div class="content">
 <div class="list_agents">
     
     <?php foreach ($agents as $agent): ?>
     
-        
+    <!--  <div class="agent-continer">     -->
         <div class="list_agents_item">
         
             <p class="agent-description">
@@ -27,9 +28,11 @@
             </p>
         
         </div>
-        
+      
+      <!-- </div> -->   
     
     
     <?php endforeach; ?>
     
+</div>
 </div>

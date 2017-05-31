@@ -1,5 +1,17 @@
 .list_agents_item {
     margin-bottom: 30px;
+    box-shadow: inset 0 0 0 4px #EEEEED;
+  font-size: 0.875rem;
+  line-height: 1.71429;
+  overflow: hidden;
+  position: relative; 
+  float: left;
+	max-width: 48%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 1%;
+margin-right: 1%;
+min-width: 278px;
     
 }
 
@@ -9,19 +21,46 @@
 
 .list_agents_item img {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
 }
-
-.agent-title {
+.content--sidebarless {
+  width: 100%; }
+  .content {
+  width: 100%; }
+  
+  .entry-title{
+  	margin-left: 16px;
+  }
+   .entry-content > p{
+  	margin-left: 16px;
+  	margin-bottom: 20px;
+  }
+  
+.list_agents_item .agent-title {
     display: block;
-    font-size: 1.5em;
-    margin-bottom: 1em;
-    text-decoration: none;
-    border: none !important;
+    
+font-size: 1.125rem;
+line-height: 1.33333;
+background: #EEEEED;
+padding: 1.5rem;
+/*margin: -1.5rem -1.5rem 1.5rem -1.5rem;*/
+margin-top: -16px;
+
+
 }
 
 .list_agents_item .agent-description {
     margin-bottom: 0.5em;
+    font-size: 1.125rem;
+    line-height: 1.33333;
+    background: #EEEEED;
+    margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+    padding-right: 2%;
+padding-left: 3%;
+padding-bottom: 0%;
+padding-top: 5%;
+min-height: 72px;
 }
 
 .list_agents_item .meta {
@@ -31,4 +70,19 @@
 
 .vermas {
     float: right;
+    padding-top: 30px;
+    background-color: #c0392b;
+color: #fff;
+display: inline-block;
+position: absolute;
+right: 0;
+bottom: 0;
+box-shadow: none;
+padding: 0 .5em;
 }
+.vermas:hover {
+    background-color: rgba(41, 39, 36, 0.9);
+    color: #fff;
+}
+
+
