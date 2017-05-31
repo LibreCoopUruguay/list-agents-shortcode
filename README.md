@@ -56,6 +56,6 @@ consulte os ids dos tipo em: https://github.com/LibreCoopUruguay/mapasculturais-
 É possível combinar os filtros
 
 ```
-Retorna os teatros de montevideo com a tag plandecirculacion
-[list_agents type=30 departamento=Montevideo tag=plandecirculacion]
+Retorna os agentes de montevideo com a tag plandecirculacion
+[list_agents departamento=Montevideo tag=plandecirculacion]
 ```
