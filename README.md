@@ -39,6 +39,7 @@ Uma lista de IDs dos selos separadas por vírugla, sem espaços
 
 ```
 [list_agents seals="2,3,4"]
+```
 
 ### Por tipo de espaço
 
